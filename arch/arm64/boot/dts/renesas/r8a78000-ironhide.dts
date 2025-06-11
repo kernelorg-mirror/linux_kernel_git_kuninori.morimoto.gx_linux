@@ -378,6 +378,18 @@
 	status = "disabled";
 };
 
+&pciec60 {
+	status = "okay";
+};
+
+&pciec60_ep {
+	status = "disabled";
+};
+
+&pciec61_ep {
+	status = "disabled";
+};
+
 &rsw3_clk {
 	clock-frequency = <66660000>;
 };
